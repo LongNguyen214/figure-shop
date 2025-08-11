@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.banner {
+  background-image: url('../images/banner.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #212529;
+  color: #fff;
+}
+
+footer a {
+  color: #adb5bd;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
